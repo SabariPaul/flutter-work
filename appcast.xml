@@ -2,6 +2,12 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>For unit test only</title>
+     <!-- A release testing maximumSystemVersion -->
+    <item>
+        <title>Version 5.0</title>
+        <sparkle:version>5.0</sparkle:version>
+        <sparkle:maximumSystemVersion>2.0.0</sparkle:maximumSystemVersion>
+    </item>
     <item>
         <title>Version 2.0</title>
         <description>desc Версия</description>
@@ -36,11 +42,6 @@
         <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="4.0" sparkle:os="iOS" />
         <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
     </item>
-    <!-- A release testing maximumSystemVersion -->
-    <item>
-        <title>Version 5.0</title>
-        <sparkle:version>5.0</sparkle:version>
-        <sparkle:maximumSystemVersion>2.0.0</sparkle:maximumSystemVersion>
-    </item>
+   
   </channel>
 </rss>
