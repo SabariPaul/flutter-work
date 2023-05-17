@@ -6,7 +6,9 @@
         <title>Version 2.0.0</title>
         <sparkle:version>2.0.0</sparkle:version>
         <sparkle:maximumSystemVersion>2.0.0</sparkle:maximumSystemVersion>
-        <sparkle:minimumAutoupdateVersion>2.0.0</sparkle:minimumAutoupdateVersion>
+        <sparkle:tags>
+                <sparkle:criticalUpdate/>
+            </sparkle:tags>
     </item>
   </channel>
 </rss>
